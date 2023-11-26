@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  width: 100%;
+}
+body header nav {
+  width: 60%;
+  margin: auto;
+  background-color: white !important;
+}
+body header nav .headerDiv {
+  justify-content: flex-end !important;
+}
+body header nav .headerDiv ul {
+  gap: 20px;
+}
+body header nav .headerDiv ul li a {
+  color: black !important;
+  font-weight: 700;
+}
+body header nav .headerDiv ul li a:hover {
+  color: #007bff !important;
+  font-weight: 700;
+  transition: 0.3s;
+}
+body header nav .headerDiv ul .dropdownList:hover div {
+  display: block;
+}
+body main #secOne {
+  background-image: url(/assets/img/header-bg.webp);
+  width: 100%;
+  height: 820px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+body main #secOne .mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+}
+body main #secOne .mainContainer .secContentOne h1 {
+  font-size: 50px;
+  width: 50%;
+  color: white;
+}
+body main #secOne .mainContainer .secContentTwo {
+  display: flex;
+  flex-direction: column;
+}
+body main #secOne .mainContainer .secContentTwo .contentOne p {
+  font-size: 20px;
+  color: white;
+}
+body main #secOne .mainContainer .secContentTwo .contentTwo .inContent h2 {
+  font-size: 23px;
+  color: white;
+}
+body main #secOne .mainContainer .secContentTwo .contentTwo .inContent p {
+  color: white;
+  font-size: 20px;
+}
+body main #secTwo {
+  width: 100%;
+  margin-bottom: 50px;
+}
+body main #secTwo .mainContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+body main #secTwo .mainContainer .secContentOne {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main #secTwo .mainContainer .secContentOne h2 {
+  font-size: 36px;
+}
+body main #secTwo .mainContainer .secContentOne p {
+  width: 730px;
+  font-size: 16px;
+  color: gray;
+}
+body main #secTwo .mainContainer .secContentTwo {
+  margin-bottom: 40px;
+}
+body main #secTwo .mainContainer .secContentTwo h2 {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  width: 40%;
+  margin-top: 15px;
+}
+body main #secTwo .mainContainer .secContentTwo p {
+  font-size: 18px;
+  text-align: start;
+}
+body main #secThree {
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgb(237, 237, 237);
+}
+body main #secThree .mainContainer {
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+body main #secThree .mainContainer .secContentOne {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+body main #secThree .mainContainer .secContentOne h2 {
+  font-size: 36px;
+}
+body main #secThree .mainContainer .secContentOne p {
+  color: gray;
+  width: 730px;
+  font-size: 16px;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv {
+  margin: 20px;
+  position: relative;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv img {
+  width: 100%;
+  height: auto;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .textContent {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: black;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .textContent h2 {
+  font-size: 24px;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .textContent p {
+  font-size: 18px;
+  color: white;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .inContent h2 {
+  background-color: transparent;
+  color: black;
+  font-size: 18px;
+  width: 240px;
+  text-align: start;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .inContent p {
+  font-size: 14px;
+  width: 300px;
+  color: gray;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .comment .commentIn {
+  display: flex;
+  gap: 10px;
+}
+body main #secThree .mainContainer .secContentTwo .contentDiv .comment .commentIn p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: gray;
+}
+body main #secThree .mainContainer .secContentTwo h2 {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  width: 40%;
+  margin-top: 15px;
+}
+body main #secThree .mainContainer .secContentTwo p {
+  font-size: 18px;
+  text-align: start;
+}
+body main #secThree .mainContainer .buttonDiv button {
+  width: 142px;
+  height: 44px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 60px;
+  background-image: -webkit-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+}
+body main #secFour {
+  width: 100%;
+  margin-bottom: 50px;
+}
+body main #secFour .mainContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+body main #secFour .mainContainer .secContentOne {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main #secFour .mainContainer .secContentOne h2 {
+  font-size: 36px;
+}
+body main #secFour .mainContainer .secContentOne p {
+  font-size: 16px;
+}
+body main #secFour .mainContainer .secContentTwo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main #secFour .mainContainer .secContentTwo img {
+  width: 100%;
+}
+body main #secFour .mainContainer .secContentTwo h2 {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  width: 40%;
+  margin-top: 15px;
+}
+body main #secFour .mainContainer .secContentTwo p {
+  font-size: 18px;
+  text-align: start;
+}
+body main #secFour .mainContainer .secContentTwo h3 {
+  font-size: 16px;
+  color: gray;
+  text-align: start;
+}
+body main #secFour .mainContainer .secContentTwo .textContent p {
+  font-size: 16px;
+  color: gray;
+}
+body main #secFour .mainContainer .contentButton button {
+  width: 142px;
+  height: 44px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 60px;
+  background-image: -webkit-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+}
+body main #secFive {
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+}
+body main #secFive .mainContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+body main #secFive .mainContainer .secContentOne {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main #secFive .mainContainer .secContentOne h2 {
+  font-size: 36px;
+}
+body main #secFive .mainContainer .secContentOne p {
+  font-size: 16px;
+}
+body main #secFive .mainContainer .secContentTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main #secFive .mainContainer .secContentTwo .text p {
+  font-size: 15px;
+  color: gray;
+  text-align: start;
+  width: 500px;
+}
+body main #secFive .mainContainer .secContentTwo .img .imgContent {
+  position: relative;
+}
+body main #secFive .mainContainer .secContentTwo .img .imgContent .overlayDiv .imgOverlay {
+  display: none;
+  background-color: rgba(105, 180, 253, 0.7);
+  width: 265px;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0px;
+}
+body main #secFive .mainContainer .secContentTwo .img .imgContent .overlayDiv .imgOverlay .icons {
+  display: flex;
+  gap: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img .imgContent .overlayDiv .imgOverlay .icons i {
+  font-size: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img .textContent {
+  padding-top: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img .textContent h2 {
+  font-size: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img .textContent p {
+  font-size: 16px;
+  color: gray;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover {
+  cursor: pointer;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .imgContent {
+  position: relative;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .imgContent .overlayDiv {
+  display: block;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .imgContent .overlayDiv .imgOverlay {
+  display: flex;
+  background-color: rgba(105, 180, 253, 0.7);
+  width: 265px;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0px;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .imgContent .overlayDiv .imgOverlay .icons {
+  display: flex;
+  gap: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .imgContent .overlayDiv .imgOverlay .icons i {
+  font-size: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .textContent {
+  padding-top: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .textContent h2 {
+  font-size: 20px;
+}
+body main #secFive .mainContainer .secContentTwo .img:hover .textContent p {
+  font-size: 16px;
+  color: gray;
+}
+body footer {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  background-color: #222222;
+  height: 280px;
+}
+body footer .footerDiv {
+  position: absolute;
+  top: -100px;
+  left: 300px;
+}
+body footer .footerDiv .content h2 {
+  font-size: 22px;
+  color: white;
+  padding-bottom: 20px;
+}
+body footer .footerDiv .content p {
+  font-size: 16px;
+  color: white;
+}
+body footer .footerDiv .content form input {
+  padding-left: 20px;
+  width: 330px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+body footer .footerDiv .content form button {
+  border-radius: 20px;
+  border: none;
+  width: 165px;
+  height: 45px;
+  font-size: 18px;
+  color: white;
+  background-image: -webkit-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+}
+body footer .footerDiv .content .imgDiv {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
